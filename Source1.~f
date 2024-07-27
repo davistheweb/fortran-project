@@ -4,12 +4,12 @@
        
        do while( num <= 20)
           if(mod(num,2) == 0)then
-                print "(i1)", num
+                print "(i2)", num
                 num = num + 1
                 cycle
           end if
           num = num +1
        end do
        
-       pause
+       stop
        end program evenNumbers
