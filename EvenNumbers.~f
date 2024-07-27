@@ -4,7 +4,7 @@
        
        do while( num <= 20)
           if(mod(num,2) == 0)then
-                print '(I0)', num
+                print ('I0'), num
                 num = num + 1
                 cycle
           end if
