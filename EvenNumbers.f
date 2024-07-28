@@ -1,7 +1,6 @@
-       program EvenNumbers
+       program EvenNumbersCheck
        implicit none
        integer:: num = 1
-       
        do while( num <= 20)
           if(mod(num,2) == 0)then
                 print '(I0)', num
@@ -10,6 +9,5 @@
           end if
           num = num +1
        end do
-       
        pause
-       end program evenNumbers
+       end program evenNumbersCheck

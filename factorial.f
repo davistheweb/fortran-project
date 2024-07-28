@@ -1,7 +1,7 @@
        program factorial
        implicit none
-       integer:: num, result , fac
-       result = 1
+       integer:: num,fac
+       integer:: result = 1
        print *, "Enter a number to get it's factorial: "
        read *, num
        fac = num
