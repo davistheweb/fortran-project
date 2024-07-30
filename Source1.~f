@@ -1,15 +1,10 @@
-       program EvenNumbers
-       implicit none
-       integer:: num = 1
-       
-       do while( num <= 20)
-          if(mod(num,2) == 0)then
-                print "(i2)", num
-                num = num + 1
-                cycle
-          end if
-          num = num +1
-       end do
-       
-       stop
-       end program evenNumbers
+        program c
+        i = 20
+        k = 3
+
+
+
+        print *,mod(i,k)
+        pause
+        end program c
+
